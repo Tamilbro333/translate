@@ -6,7 +6,7 @@ translator = Translator()
 # Define the text to be translated
 text = "Hello, how are you?"
 
-# Translate the text
+# Translate the text from English to Tamil
 translated = translator.translate(text, src='en', dest='ta')
 
 # Print the original and translated text
